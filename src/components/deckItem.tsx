@@ -2,7 +2,6 @@ import * as React from "react"
 
 const DeckItem = ({
                       content: {
-                          id,
                           text,
                           location: {
                               lat,
@@ -17,7 +16,7 @@ const DeckItem = ({
                           }
                       }
                   }) => (
-    <div key={id}>
+    <div>
         <p>
             {text}
         </p>

@@ -1,10 +1,7 @@
 import * as React from "react"
-import {graphql, Link, StaticQuery} from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
+import {graphql, StaticQuery} from "gatsby"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
-import DeckItem from "./deckItem";
+import DeckItem from "../components/deckItem";
 
 const IndexPage = () => (
     <Layout>
